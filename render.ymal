@@ -1,5 +1,5 @@
 services:
-  - type: web
+  - type:  web
     name: movie-booker-back
     env: node
     rootDir: movie-booker-back  # ✅ Ajout du bon chemin pour le back
