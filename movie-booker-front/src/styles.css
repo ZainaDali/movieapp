@@ -1,0 +1,195 @@
+/* styles.css */
+
+/* Réinitialisation de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Conteneur principal des films */
+  .movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Carte de chaque film */
+  .movie-card {
+    background-color: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image du film */
+  .movie-poster {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Titres */
+  h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  /* Boutons */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Formulaire */
+  input[type="datetime-local"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Filtres */
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .filters input,
+  .filters select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  /* CENTRAGE DU FORMULAIRE */
+.auth-container {
+    max-width: 450px;  /* Augmente la largeur */
+    margin: 100px auto; /* Centrage vertical et horizontal */
+    padding: 30px; /* Plus d’espace interne */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* TITRE DU FORMULAIRE */
+  .auth-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px; /* Augmente la taille */
+    font-weight: bold;
+  }
+  
+  /* CHAMPS DU FORMULAIRE */
+  .auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacement entre les champs */
+  }
+  
+  .auth-container input {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 18px; /* Texte plus grand */
+  }
+  
+  .auth-container input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* BOUTON */
+  .auth-container button {
+    background-color: #007bff;
+    padding: 14px;
+    font-size: 18px;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .auth-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* LIEN SOUS LE FORMULAIRE */
+  .auth-container p {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .auth-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .auth-container a:hover {
+    text-decoration: underline;
+  }
+
+  .navbar span {
+    color: wheat; 
+    font-weight: bold; 
+    font-size: 16px; 
+  }
+  
