@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://movie-booker-back.onrender.com';
+const API_URL = 'https://movie-booker-po0b.onrender.com';
 
 const api = axios.create({
   baseURL: API_URL,
